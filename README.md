@@ -8,4 +8,4 @@ Creacion y diseño de una card junto al consumo de una API para reforzar concept
 * CSS mediante preprocesador SCSS
 * JAVASCRIPT
 
-LINK a la pagina -->  https://nicolaskuhn-y.github.io/pokeapp/
+LINK a la pagina -->  https://pokedex-hazel.vercel.app/
