@@ -5,7 +5,7 @@ Creacion y diseño de una card junto al consumo de una API para reforzar concept
 ### Tecnologias utilizadas:
 
 * HTML
-* CSS
+* SCSS
 * JAVASCRIPT
 
 LINK a la pagina -->  https://nicolaskuhn-y.github.io/pokeapp/
