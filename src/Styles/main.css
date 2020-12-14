@@ -86,7 +86,8 @@ body {
   position: relative;
   top: -5em;
   border-radius: 50%;
-  border: 0.4em solid var(--full-white);
+  border: 0.2em solid var(--full-white);
+  background-color: var(--full-white);
 }
 
 .card-center h2 {
