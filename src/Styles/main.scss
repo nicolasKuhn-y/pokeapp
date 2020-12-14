@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --dark-cyan: rgb(25, 162, 174);
+  --very-dark-desaturated: rgb(45, 50, 72);
+  --dark-grayish-blue: rgb(106, 111, 129);
+  --dark-gray: rgb(150, 150, 150);
+  --full-white: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  font-size: 1em;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--full-white);
+  border-radius: 4%;
+  width: 20em;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+  max-width: 300px;
+  max-height: 450px;
+}
+
+.card-top {
+  width: 100%;
+
+   .top-fondoImg {
+    width: 100%;
+    border-radius: 4% 4% 0 0;
+    overflow: hidden;
+  }
+}
+
+.card-center {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  align-items: center;
+
+  & img {
+    position: relative;
+    top: -5em;
+    border-radius: 50%;
+    border: 0.4em solid var(--full-white);
+  }
+
+  & h2 {
+    margin: 0;
+    margin-top: 2rem;
+    color: var(--very-dark);
+    font-size: 1.5rem;
+    position: relative;
+    top: -3em;
+  }
+
+  & p {
+    font-size: 1.3rem;
+    color: var(--dark-gray);
+    margin: 0rem;
+    position: relative;
+    top: -2em;
+  }
+}
+
+.card-footer {
+  border-top: 1px solid var(--dark-gray);
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+span,
+.footer-p {
+  color: var(--dark-grayish-blue);
+}
