@@ -22,7 +22,7 @@ const writeCard = pokemon => {
     rechargeButton.addEventListener("click", () => location.reload());
   };
 
-  const getRandomId = (min = 1, max = 899) =>
+  const getRandomId = (min = 1, max = 251) =>
   Math.floor(Math.random() * (max - min) + min);
 
   export {writeCard, getRandomId};
