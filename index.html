@@ -13,10 +13,12 @@
 
     <link rel="stylesheet" href="./src/Styles/normalize.css" />
     <link rel="stylesheet" href="./src/Styles/main.css" />
-    <title>Pokemon | Nicolas Kuhn</title>
+    <title>Pokedex | Nicolas Kuhn</title>
   </head>
   <body>
-    <main id="main-container">
+    <main id="main-container"></main>
+
+    <template id="template-card">
       <article class="card">
         <div class="card-top">
           <img
@@ -37,25 +39,34 @@
             <span id="h2-span">26</span>
           </h2>
           <p class="center-p">London</p>
+
+          <button
+            id="poke-button"
+            class="center-button"
+            onclick="location.reload()"
+          >
+            Update Pokemon
+          </button>
         </div>
 
         <div class="card-footer">
           <div class="footer">
             <h3 class="footer-h3">80K</h3>
-            <p class="footer-p">Followers</p>
+            <p class="footer-p">Attack</p>
           </div>
 
           <div class="footer">
             <h3 class="footer-h3">803K</h3>
-            <p class="footer-p">Likes</p>
+            <p class="footer-p">special</p>
           </div>
 
           <div class="footer">
             <h3 class="footer-h3">1.4K</h3>
-            <p class="footer-p">Photos</p>
+            <p class="footer-p">defense</p>
           </div>
         </div>
       </article>
-    </main>
+    </template>
+    <script type="module" src="./src/Script/app.js"></script>
   </body>
 </html>
