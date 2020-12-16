@@ -9,5 +9,5 @@ Si prueba la app a fin de mes es probable que la app no funcione por fallos en l
 * CSS mediante preprocesador SCSS
 * JAVASCRIPT
 
-LINK a la pagina -->  https://nicolaskuhn-y.github.io/pokeapp/
+LINK a la pagina -->  https://nicolaskuhn-y.github.io/pokeapp/  
 Version en REACT --> EN DESARROLLO :)
